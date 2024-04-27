@@ -2,6 +2,11 @@
 Changelog for package leo_gz_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2024-04-27)
+------------------
+* Get rid of all the ignition references
+* Contributors: Błażej Sowa
+
 1.1.0 (2024-04-27)
 ------------------
 * Set new GZ variables to work on Gazebo Harmonic
