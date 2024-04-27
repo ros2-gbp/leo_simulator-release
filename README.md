@@ -1,3 +1,30 @@
+## leo_simulator (rolling) - 2.0.0-1
+
+The packages in the `leo_simulator` repository were released into the `rolling` distro by running `/bin/bloom-release --rosdistro rolling leo_simulator` on `Sat, 27 Apr 2024 21:39:56 -0000`
+
+These packages were released:
+- `leo_gz_bringup`
+- `leo_gz_plugins`
+- `leo_gz_worlds`
+- `leo_simulator`
+
+Version of package(s) in repository `leo_simulator`:
+
+- upstream repository: https://github.com/LeoRover/leo_simulator-ros2.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.23.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## leo_simulator (iron) - 1.1.0-1
 
 The packages in the `leo_simulator` repository were released into the `iron` distro by running `/usr/bin/bloom-release --rosdistro iron leo_simulator` on `Sat, 27 Apr 2024 20:31:30 -0000`
