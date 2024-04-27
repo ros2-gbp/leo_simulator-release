@@ -1,0 +1,12 @@
+Source: ros-iron-leo-gz-plugins
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), libgz-plugin-dev, libgz-sim6-dev, ros-iron-ament-cmake, ros-iron-ament-cmake-copyright <!nocheck>, ros-iron-ament-cmake-cpplint <!nocheck>, ros-iron-ament-cmake-lint-cmake <!nocheck>, ros-iron-ament-cmake-uncrustify <!nocheck>, ros-iron-ament-cmake-xmllint <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-leo-gz-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgz-plugin-dev, libgz-sim6-dev, ros-iron-ros-workspace
+Description: Plugins for Leo Rover Gazebo simulation in ROS 2
