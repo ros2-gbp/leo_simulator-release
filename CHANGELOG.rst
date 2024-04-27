@@ -2,6 +2,13 @@
 Changelog for package leo_gz_worlds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.0 (2024-04-27)
+------------------
+* Add README to leo_gz_worlds [skip ci]
+* Set new GZ variables to work on Gazebo Harmonic
+* Revert empty world collision detector to ode
+* Contributors: Błażej Sowa, Jan Hernas
+
 1.0.0 (2023-11-08)
 ------------------
 * Rename hook file name
