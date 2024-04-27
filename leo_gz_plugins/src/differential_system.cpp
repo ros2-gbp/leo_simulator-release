@@ -18,16 +18,27 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#ifdef USE_IGNITION
 
-#define SUPPRESS_IGNITION_HEADER_DEPRECATION
 #include <ignition/gazebo/System.hh>
 #include <ignition/gazebo/Model.hh>
 #include <ignition/gazebo/components.hh>
 #include <ignition/plugin/Register.hh>
-#ifdef USE_IGNITION
+
 namespace gazebo = ignition::gazebo;
+
+#define GZ_ADD_PLUGIN IGNITION_ADD_PLUGIN
+
 #else
+
+#define SUPPRESS_IGNITION_HEADER_DEPRECATION
+#include <gz/sim/System.hh>
+#include <gz/sim/Model.hh>
+#include <gz/sim/components.hh>
+#include <gz/plugin/Register.hh>
+
 namespace gazebo = gz::sim;
+
 #endif
 
 namespace leo_gz
@@ -147,7 +158,7 @@ public:
 
 }  // namespace leo_gz
 
-IGNITION_ADD_PLUGIN(
+GZ_ADD_PLUGIN(
   leo_gz::DifferentialSystem,
   gazebo::System,
   leo_gz::DifferentialSystem::ISystemConfigure,
