@@ -1,18 +1,21 @@
-name: CI-Rolling
+name: CI-Jazzy
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - ros2
+      - jazzy
   pull_request:
     branches:
-      - ros2
+      - jazzy
 
 jobs:
   harmonic_ci:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
+    container:
+      image: ubuntu:noble
     strategy:
+      fail-fast: false
       matrix:
         ROS_REPO: [testing, main]
     steps:
@@ -21,7 +24,7 @@ jobs:
         with:
           use-ros2-testing: ${{ matrix.ROS_REPO == 'testing' }}
       - name: Run ROS CI
-        uses: ros-tooling/action-ros-ci@v0.3
+        uses: ros-tooling/action-ros-ci@0.3.8
         with:
-          target-ros2-distro: rolling
+          target-ros2-distro: jazzy
           import-token: ${{ secrets.GITHUB_TOKEN }}
