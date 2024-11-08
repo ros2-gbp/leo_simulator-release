@@ -2,8 +2,16 @@
 Changelog for package leo_gz_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.1 (2024-11-08)
+2.0.1 (2024-11-08)
 ------------------
+* Fix mypy errors (`#11 <https://github.com/LeoRover/leo_simulator-ros2/issues/11>`_) (`#12 <https://github.com/LeoRover/leo_simulator-ros2/issues/12>`_)
+* Add launch_ros to dependencies
+* Contributors: Błażej Sowa
+
+2.0.0 (2024-04-27)
+------------------
+* Get rid of all the ignition references
+* Contributors: Błażej Sowa
 
 1.1.0 (2024-04-27)
 ------------------
