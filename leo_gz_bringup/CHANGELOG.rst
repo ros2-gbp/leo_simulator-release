@@ -2,6 +2,9 @@
 Changelog for package leo_gz_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.1 (2024-11-08)
+------------------
+
 1.1.0 (2024-04-27)
 ------------------
 * Set new GZ variables to work on Gazebo Harmonic
