@@ -2,20 +2,15 @@
 Changelog for package leo_gz_worlds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.2 (2025-04-11)
+1.1.2 (2025-04-11)
 ------------------
-* Add imu plugin to each world (`#13 <https://github.com/LeoRover/leo_simulator-ros2/issues/13>`_)
+* Add imu plugin to each world (`#13 <https://github.com/LeoRover/leo_simulator-ros2/issues/13>`_) (`#14 <https://github.com/LeoRover/leo_simulator-ros2/issues/14>`_)
 * Contributors: Jan Hernas
 
-2.0.1 (2024-11-08)
+1.1.1 (2024-11-08)
 ------------------
-* Add dummy .sh files for .dsv hooks (`#8 <https://github.com/LeoRover/leo_simulator-ros2/issues/8>`_)
+* Add dummy .sh files for .dsv hooks (`#8 <https://github.com/LeoRover/leo_simulator-ros2/issues/8>`_) (`#9 <https://github.com/LeoRover/leo_simulator-ros2/issues/9>`_)
 * Contributors: Jan Hernas
-
-2.0.0 (2024-04-27)
-------------------
-* Get rid of all the ignition references
-* Contributors: Błażej Sowa
 
 1.1.0 (2024-04-27)
 ------------------
