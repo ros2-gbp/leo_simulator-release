@@ -1,0 +1,12 @@
+Source: ros-humble-leo-gz-bringup
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-black <!nocheck>, ros-humble-ament-cmake-copyright <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-mypy <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-leo-gz-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ament-index-python, ros-humble-leo-description, ros-humble-leo-gz-plugins, ros-humble-leo-gz-worlds, ros-humble-robot-state-publisher, ros-humble-ros-gz-bridge, ros-humble-ros-gz-image, ros-humble-ros-gz-sim, ros-humble-xacro, ros-humble-ros-workspace
+Description: Bringup package for Leo Rover Gazebo simulation in ROS 2
