@@ -1,0 +1,12 @@
+Source: ros-kilted-leo-gz-plugins
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-copyright <!nocheck>, ros-kilted-ament-cmake-cpplint <!nocheck>, ros-kilted-ament-cmake-lint-cmake <!nocheck>, ros-kilted-ament-cmake-uncrustify <!nocheck>, ros-kilted-ament-cmake-xmllint <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-gz-plugin-vendor, ros-kilted-gz-sim-vendor, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-leo-gz-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-gz-plugin-vendor, ros-kilted-gz-sim-vendor, ros-kilted-ros-workspace
+Description: Plugins for Leo Rover Gazebo simulation in ROS 2
