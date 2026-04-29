@@ -1,0 +1,12 @@
+Source: ros-lyrical-leo-gz-bringup
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-black <!nocheck>, ros-lyrical-ament-cmake-copyright <!nocheck>, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-mypy <!nocheck>, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/leo_gz_bringup/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-leo-gz-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ament-index-python, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-leo-description, ros-lyrical-leo-gz-plugins, ros-lyrical-leo-gz-worlds, ros-lyrical-robot-state-publisher, ros-lyrical-ros-gz-bridge, ros-lyrical-ros-gz-image, ros-lyrical-ros-gz-sim, ros-lyrical-xacro, ros-lyrical-ros-workspace
+Description: Bringup package for Leo Rover Gazebo simulation in ROS 2
